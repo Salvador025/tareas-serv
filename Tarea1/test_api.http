@@ -66,3 +66,8 @@ Content-Type: application/json
 ### Delete user ###
 DELETE http://localhost:3000/users/10
 
+
+### get user ###
+
+GET http://localhost:3000/users?token=12345
+
